@@ -1,0 +1,70 @@
+EDXAPP_PAID_COURSE_REGISTRATION_CURRENCY: ['ngn', '=N=']
+edx_platform_repo: https://github.com/jelugbo/tundex.git
+edx_platform_version: master
+edxapp_use_custom_theme: true
+edxapp_theme_name: metrox
+edxapp_theme_source_repo: https://github.com/jelugbo/metroxre.git
+edxapp_theme_version: HEAD
+EDXAPP_PREVIEW_LMS_BASE: hebsonline.com
+EDXAPP_PLATFORM_NAME: HEBS
+EDXAPP_ENABLE_SHOPPING_CART: True
+EDXAPP_ENABLE_PAID_COURSE_REGISTRATION: False
+EDXAPP_SITE_NAME: hebsonline.com
+EDXAPP_LMS_BASE: hebsonline.com
+EDXAPP_CMS_BASE: hebsonline.com
+EDXAPP_TECH_SUPPORT_EMAIL: technical@hebsonline.com
+EDXAPP_CONTACT_EMAIL: info@hebsonline.com
+EDXAPP_BUGS_EMAIL: bugs@hebsonline.com
+EDXAPP_DEFAULT_FROM_EMAIL: registration@hebsonline.com
+EDXAPP_DEFAULT_FEEDBACK_EMAIL: feedback@hebsonline.com
+EDXAPP_DEFAULT_SERVER_EMAIL: devops@hebsonline.com
+EDXAPP_BULK_EMAIL_DEFAULT_FROM_EMAIL: no-reply@hebsonline.com
+EDXAPP_UNIVERSITY_EMAIL: university@hebsonline.com
+EDXAPP_PRESS_EMAIL: press@hebsonline.com
+EDXAPP_PLATFORM_TWITTER_ACCOUNT: '@HEBSTwitterAccount'
+EDXAPP_PLATFORM_FACEBOOK_ACCOUNT: http://www.facebook.com/HEBSFacebookAccount
+EDXAPP_PLATFORM_TWITTER_URL: https://twitter.com/HEBSTwitterAccount
+EDXAPP_PLATFORM_MEETUP_URL: http://www.meetup.com/HEBSMeetup
+EDXAPP_PLATFORM_LINKEDIN_URL: http://www.linkedin.com/company/HEBS
+EDXAPP_PLATFORM_GOOGLE_PLUS_URL: https://plus.google.com/HEBSGooglePlusAccount/
+ENABLE_SHOPPING_CART: true
+ENABLE_PAID_COURSE_REGISTRATION: true
+EDXAPP_CC_PROCESSOR_NAME: "VoguePay"
+EDXAPP_CC_PROCESSOR:
+  CyberSource:
+    SHARED_SECRET: 'OLODO'
+    MERCHANT_ID: '564647878'
+    SERIAL_NUMBER: '0123456789'
+    ORDERPAGE_VERSION: '99'
+    PURCHASE_ENDPOINT: 'https://api-3t.paypal.com/nvp'
+    PROCESS_URL: 'https://api-3t.sandbox.paypal.com/nvp'
+    USER_ID: 'bjquickfix_api1.gmail.com'
+    USER_PWD: 'GYG8HHAK2WJCCTL4'
+    USER_SIGN: 'An5ns1Kso7MWUdW4ErQKJJJ4qi4-Axqc.JXhbp4NyL10iuwGYs6H2Hqx'
+    API_VERSION: '96'
+    ORDERID_PREFIX: 'HEBS_'
+    VERIFY_URL: 'http://hebsonline.com'
+
+  PayPal:
+    PROCESS_URL: 'https://api-3t.sandbox.paypal.com/nvp'
+    USER_ID: 'bjquickfix_api1.gmail.com'
+    USER_PWD: 'GYG8HHAK2WJCCTL4'
+    USER_SIGN: 'An5ns1Kso7MWUdW4ErQKJJJ4qi4-Axqc.JXhbp4NyL10iuwGYs6H2Hqx'
+    API_VERSION: '96'
+    ORDERID_PREFIX: 'HEBS_'
+    VERIFY_URL: 'http://hebsonline.com'
+
+  CyberSource2:
+    SECRET_KEY: 'fake_secret_key'
+    ACCESS_KEY: 'fake_access_key'
+    PROFILE_ID: 'fake_profile_id'
+    PURCHASE_ENDPOINT: 'https://testsecureacceptance.cybersource.com/pay'
+
+  VoguePay:
+    MERCHANT_ID: 'demo'
+    ORDER_PREFIX: 'HEBS ==> '
+    PURCHASE_ENDPOINT: 'https://voguepay.com/pay'
+    USER_SIGN: 'An5ns1Kso7MWUdW4ErQKJJJ4qi4-Axqc.JXhbp4NyL10iuwGYs6H2Hqx'
+    API_VERSION: '96'
+    ORDERID_PREFIX: 'HEBS_'
+    VERIFY_URL: 'http://hebsonline.com'
